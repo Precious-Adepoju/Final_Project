@@ -1,0 +1,98 @@
+[0m00:26:09.413394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E26475790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E26477550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E26475A90>]}
+
+
+============================== 00:26:09.477368 | acce2aee-8873-47e3-8651-5a1cdcbc2a8e ==============================
+[0m00:26:09.477368 [info ] [MainThread]: Running with dbt=1.8.5
+[0m00:26:09.483790 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ibuku\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:26:09.574619 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/ibuku/.dbt')}
+[0m00:26:09.576255 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m00:27:34.480511 [debug] [MainThread]: Starter project path: C:\Users\ibuku\OneDrive\Desktop\Final_Project\venv\Lib\site-packages\dbt\include\starter_project
+[0m00:27:34.570186 [info ] [MainThread]: 
+Your new dbt project "ecommerce_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:27:34.575404 [info ] [MainThread]: Setting up your profile.
+[0m00:38:25.428249 [info ] [MainThread]: Profile ecommerce_dbt_project written to C:\Users\ibuku\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:38:25.528025 [debug] [MainThread]: Command `dbt init` succeeded at 00:38:25.514570 after 736.44 seconds
+[0m00:38:25.537377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E20959010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E2E206F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E26475410>]}
+[0m00:38:25.555324 [debug] [MainThread]: Flushing usage events
+[0m00:40:00.658593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B97847D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B978184D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B97847DCD0>]}
+
+
+============================== 00:40:00.666604 | 3faf9ac0-ae44-4ecd-b418-63cab1145602 ==============================
+[0m00:40:00.666604 [info ] [MainThread]: Running with dbt=1.8.5
+[0m00:40:00.674618 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ibuku\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m00:40:00.742553 [info ] [MainThread]: dbt version: 1.8.5
+[0m00:40:00.742553 [info ] [MainThread]: python version: 3.11.9
+[0m00:40:00.742553 [info ] [MainThread]: python path: C:\Users\ibuku\OneDrive\Desktop\Final_Project\venv\Scripts\python.exe
+[0m00:40:00.754061 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m00:40:04.392897 [info ] [MainThread]: Using profiles dir at C:\Users\ibuku\.dbt
+[0m00:40:04.397112 [info ] [MainThread]: Using profiles.yml file at C:\Users\ibuku\.dbt\profiles.yml
+[0m00:40:04.406951 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ibuku\OneDrive\Desktop\Final_Project\postgres_docker\dbt\dbt_project.yml
+[0m00:40:04.408189 [info ] [MainThread]: adapter type: bigquery
+[0m00:40:04.418783 [info ] [MainThread]: adapter version: 1.8.2
+[0m00:40:04.426492 [info ] [MainThread]: Configuration:
+[0m00:40:04.431908 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m00:40:04.448021 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m00:40:04.463229 [info ] [MainThread]: Required dependencies:
+[0m00:40:04.468360 [debug] [MainThread]: Executing "git --help"
+[0m00:40:04.499621 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m00:40:04.511081 [info ] [MainThread]: Connection:
+[0m00:40:04.521239 [info ] [MainThread]:   method: service-account
+[0m00:40:04.536050 [info ] [MainThread]:   database: final-project-431620
+[0m00:40:04.538572 [info ] [MainThread]:   execution_project: final-project-431620
+[0m00:40:04.541333 [info ] [MainThread]:   schema: dbt_ecommerce_project
+[0m00:40:04.544633 [info ] [MainThread]:   location: EU
+[0m00:40:04.551795 [info ] [MainThread]:   priority: interactive
+[0m00:40:04.554381 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m00:40:04.554381 [info ] [MainThread]:   impersonate_service_account: None
+[0m00:40:04.554381 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m00:40:04.558136 [info ] [MainThread]:   job_retries: 1
+[0m00:40:04.566321 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m00:40:04.589737 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m00:40:04.615769 [info ] [MainThread]:   timeout_seconds: 300
+[0m00:40:04.622460 [info ] [MainThread]:   client_id: None
+[0m00:40:04.626607 [info ] [MainThread]:   token_uri: None
+[0m00:40:04.636090 [info ] [MainThread]:   dataproc_region: None
+[0m00:40:04.652257 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m00:40:04.668134 [info ] [MainThread]:   gcs_bucket: None
+[0m00:40:04.671596 [info ] [MainThread]:   dataproc_batch: None
+[0m00:40:04.674158 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m00:40:04.684600 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m00:40:04.684600 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:40:04.684600 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: 'postgres_docker\\include\\gcp\\service_account_gcp.json''
+[0m00:40:04.684600 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m00:40:04.684600 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m00:40:04.690793 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\ibuku\OneDrive\Desktop\Final_Project\postgres_docker\dbt\dbt_project.yml> not found
+
+[0m00:40:04.690793 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m00:40:04.690793 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  [Errno 2] No such file or directory: 'postgres_docker\\include\\gcp\\service_account_gcp.json'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m00:40:04.704955 [debug] [MainThread]: Command `dbt debug` failed at 00:40:04.704955 after 4.17 seconds
+[0m00:40:04.705661 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m00:40:04.707300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B978481AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B972CF9010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B978204850>]}
+[0m00:40:04.707300 [debug] [MainThread]: Flushing usage events
