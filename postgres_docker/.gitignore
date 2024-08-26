@@ -10,3 +10,5 @@ webserver_config.py
 airflow.cfg
 airflow.db
 include/gcp/
+pg_data
+venv
